@@ -117,20 +117,46 @@ a{
 	display:flex;
 	flex-direction:row;
 	justify-content:space-around;
+	margin:10px red;
 }
 
 .middle-img{
 	padding: 20px 0px 20px 0px;
 }
 
+
+ .bottom-content .text-content{
+	width:350px;
+	height:220px;
+	border:2px solid black;
+	padding: 15px;
+	background-color:#D3D3D3;
+
+}
+
 .bottom-content{
-	width:900px;
+	height: 900px;
 	display:flex;
-	flex-direction:row;
 	
-	align-item:stretch;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding:30px;
+	
+	/* align-items:stretch;
 	padding:20px;
 	flex-wrap: wrap;
+	margin:5px red; */
+}
+
+.last-content{
+	display:flex;
+	flex-direction:row;
+
+	padding:20px;
+}
+
+.bot-text{
+	width:400px;
 }
 
 .contact{
@@ -144,5 +170,14 @@ a{
 footer{
 	text-align:center;
 
+}
+
+.nav-top a{
+	text-decoration:none;
+}
+
+.services-header-img{
+	width:900px;
+	padding:10px;
 }
 
